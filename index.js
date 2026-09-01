@@ -8,11 +8,11 @@ app.use(express.json({ limit: '10mb' }));
 
 // ====== 改这里 ======
 const VOICE_SETTINGS = {
-  stability: 0.35,
-  similarity_boost: 0.85,
-  style: 0.72
+  stability: 0.28,
+  similarity_boost: 0.9,
+  style: 0.9
 };
-const SPEED = 1.38;
+const SPEED = 1.32;
 // ====================
 
 app.get('/', (req, res) => res.json({ status: 'ok', service: 'tts-proxy' }));
