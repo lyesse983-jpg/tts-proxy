@@ -8,8 +8,8 @@ app.use(express.json({ limit: '10mb' }));
 
 // ====== 改这里 ======
 const VOICE_SETTINGS = {
-  stability: 0.3,
-  similarity_boost: 0.65,
+  stability: 0.25,
+  similarity_boost: 0.75,
   style: 0.95
 };
 const SPEED = 1.30;
