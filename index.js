@@ -12,7 +12,7 @@ const VOICE_SETTINGS = {
   similarity_boost: 0.65,
   style: 0.95
 };
-const SPEED = 1.34;
+const SPEED = 1.30;
 // ====================
 
 app.get('/', (req, res) => res.json({ status: 'ok', service: 'tts-proxy' }));
